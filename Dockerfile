@@ -1,4 +1,4 @@
-FROM python:3.14.0rc1-slim-bookworm
+FROM python:3.14.1-slim-bookworm
 COPY . /app
 RUN pip3 install -r /app/requirements.txt
 EXPOSE 8000
